@@ -18,7 +18,10 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  justify-content: center;
+  display: flex;
+  justify-items:left;
+  align-items: center;
 }
 
 /* Containers */
@@ -55,6 +58,7 @@ nav a {
   padding-left: 20px;
 }
 
+
 /* Images */
 img {
   width: 100%;
@@ -75,4 +79,22 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.aboutme{
+  display: flex;
+}
+
+.allaboutpete{
+  text-align:left;
+}
+
+.description{
+  font-size:14px;
 }
